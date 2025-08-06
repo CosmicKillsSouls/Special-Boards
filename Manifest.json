@@ -1,0 +1,10 @@
+{
+    "Name": "Name",
+    "Author": "CosmicKillsSouls",
+    "Description": "Description",
+    "Version": "1.0.0",
+    "UniqueID": "CosmicKillsSouls.Name",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+}
