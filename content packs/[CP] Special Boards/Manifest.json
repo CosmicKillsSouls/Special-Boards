@@ -1,0 +1,17 @@
+{
+    "Name": "Special Boards [CP]",
+    "Author": "CosmicKillsSouls",
+    "Description": "Content Patcher portion of SpecialBoards.",
+    "Version": "1.0.0",
+    "UniqueID": "CosmicKillsSouls.SpecialBoardsCP",
+    "UpdateKeys": [ "Nexus:???" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "CosmicKillsSouls.SpecialBoards",
+            "IsRequired": true
+        }
+    ]
+}

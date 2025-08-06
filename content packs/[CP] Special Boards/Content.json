@@ -1,0 +1,136 @@
+{
+    "Format": "2.3.0",
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "Mail.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Buildings/SpecialBoards_HelpWantedBoard",
+            "FromFile": "assets/HelpWantedBoard.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "CosmicKillsSouls.SpecialBoards_HelpWantedBoard": {
+                    "Name": "{{i18n: Building.HelpWantedBoard.name}}",
+                    "Description": "{{i18n: Building.HelpWantedBoard.description}}",
+                    "Texture": "Buildings\\SpecialBoards_HelpWantedBoard",
+                    "Builder": "Robin",
+                    "Size": {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    "BuildCondition": "PLAYER_HAS_MAIL Current CosmicKillsSouls.HelpWantedBoard Received",
+                    "BuildDays": 1,
+                    "BuildCost": 10000,
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)334",
+                            "ItemId": "(O)334",
+                            "Amount": 5
+                        },
+                        {
+                            "Id": "(O)709",
+                            "ItemId": "(O)709",
+                            "Amount": 5
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "DefaultAction": "CosmicKillsSouls.SpecialBoards_HelpWantedBoard"
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Buildings/SpecialBoards_SpecialOrderBoard",
+            "FromFile": "assets/SpecialOrderBoard.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "CosmicKillsSouls.SpecialBoards_SpecialOrderBoard": {
+                    "Name": "{{i18n: Building.SpecialOrderBoard.name}}",
+                    "Description": "{{i18n: Building.SpecialOrderBoard.description}}",
+                    "Texture": "Buildings\\SpecialBoards_SpecialOrderBoard",
+                    "Builder": "Robin",
+                    "Size": {
+                        "X": 3,
+                        "Y": 1
+                    },
+                    "BuildCondition": "PLAYER_HAS_MAIL Current CosmicKillsSouls.SpecialOrderBoard Received",
+                    "BuildDays": 3,
+                    "BuildCost": 10000,
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)335",
+                            "ItemId": "(O)335",
+                            "Amount": 5
+                        },
+                        {
+                            "Id": "(O)709",
+                            "ItemId": "(O)709",
+                            "Amount": 20
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "DefaultAction": "CosmicKillsSouls.SpecialBoards_SpecialOrder"
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Buildings/SpecialBoards_QIQuestBoard",
+            "FromFile": "assets/QIQuestBoard.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "CosmicKillsSouls.SpecialBoards_QIQuestBoard": {
+                    "Name": "{{i18n: Building.QIQuestBoard.name}}",
+                    "Description": "{{i18n: Building.QIQuestBoard.description}}",
+                    "Texture": "Buildings\\SpecialBoards_QIQuestBoard",
+                    "Builder": "Wizard",
+                    "Size": {
+                        "X": 2,
+                        "Y": 1
+                    },
+                    "BuildCondition": "PLAYER_HAS_MAIL Current CosmicKillsSouls.QIQuestBoard Received",
+                    "MagicalConstruction": true,
+                    "BuildDays": 0,
+                    "BuildCost": 10000,
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)337",
+                            "ItemId": "(O)337",
+                            "Amount": 5
+                        },
+                        {
+                            "Id": "(O)338",
+                            "ItemId": "(O)338",
+                            "Amount": 25
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "DefaultAction": "CosmicKillsSouls.SpecialBoards_QIQuest"
+                }
+            }
+        }
+    ]
+}
