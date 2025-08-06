@@ -1,9 +1,0 @@
-{
-    "Name": "SpecialBoards",
-    "Author": "CosmicKillsSouls",
-    "Description": "Adds the special boards as buildings.",
-    "Version": "1.0.0",
-    "UniqueID": "CosmicKillsSouls.SpecialBoards",
-    "EntryDll": "SpecialBoards.dll",
-    "UpdateKeys": [ "Nexus:36366" ]
-}
