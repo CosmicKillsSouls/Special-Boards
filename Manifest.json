@@ -1,10 +1,11 @@
 {
-    "Name": "Name",
+    "Name": "Special Boards [CP]",
     "Author": "CosmicKillsSouls",
-    "Description": "Description",
-    "Version": "1.0.0",
-    "UniqueID": "CosmicKillsSouls.Name",
-	"ContentPackFor": {
-		"UniqueID": "Pathoschild.ContentPatcher"
-	},
+    "Description": "Adds the special boards as buildings.",
+    "Version": "2.0.0",
+    "UniqueID": "CosmicKillsSouls.SpecialBoards",
+    "UpdateKeys": [ "Nexus:36366" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
 }
